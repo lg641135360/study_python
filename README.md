@@ -40,7 +40,7 @@
 ### bool：表示真假   
 #### ps：True和False要大写，其实就是Number类型的一种1和0
 #### 		 空值为False
-![Alt text](./QQ图片20180814092039.png)
+![image](https://github.com/lg641135360/study_python/blob/master/jpgs/QQ%E5%9B%BE%E7%89%8720180814092039.png)
 ### complex：复数（非重点）
 
 ### str：字符串
@@ -172,7 +172,7 @@
 	# key取值原则 *不可变*  // ps：元组可以，list不行
 
 ### 基本数据类型总结
-![Alt text](./QQ图片20180817155949.png)
+![image](https://github.com/lg641135360/study_python/blob/master/jpgs/QQ%E5%9B%BE%E7%89%8720180817155949.png)
 
 ---
 
@@ -247,7 +247,7 @@
 		- 判断类型 isinstance(a,int) or isinstance(a,(int, float))
 
 ####- 位运算符
-![Alt text](./QQ图片20180817191925.png)
+![image](https://github.com/lg641135360/study_python/blob/master/jpgs/QQ%E5%9B%BE%E7%89%8720180817191925.png)
 
 
 ### 表达式
@@ -261,11 +261,11 @@
 
 ### 使用ide编程
 #### vscode
-![Alt text](./QQ图片20180818214123.png)
+![image](https://github.com/lg641135360/study_python/blob/master/jpgs/QQ%E5%9B%BE%E7%89%8720180818214123.png)
 #### ide的优点
 ##### 智能感知，断点调试
 ##### 推荐插件
-![Alt text](./Snipaste_2018-08-18_21-55-24.png)
+![image](https://github.com/lg641135360/study_python/blob/master/jpgs/Snipaste_2018-08-18_21-55-24.png)
 
 #### vs语法规则以及一些vscode小技巧
 
