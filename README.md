@@ -8,7 +8,7 @@
     y = temp
 
 ### python能做什么
-#### ![Alt text](./QQ图片20180814075308.png)
+#### ![image](https://github.com/lg641135360/study_python/tree/master/jpgs/QQ图片20180814075308.png)
 
 ### 编程解决生活中的问题
 
