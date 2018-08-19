@@ -327,5 +327,39 @@
 	b = a[0:len(a):2]
 	print(b)                     // 使用切片实现步进打印
 
-    ### python项目组织结构
+### python项目组织结构
 ![image](https://github.com/lg641135360/study_python/blob/master/jpgs/Snipaste_2018-08-19_19-51-24.png)
+
+    # 普通文件夹变成包
+    在文件夹内添加一个__init__.py文件
+
+    __init__模块的名字就是其包名
+    # 导入的多种形式
+	// one
+	from c import a
+	print(a)
+
+	// two 
+	from c import *
+	print(a)
+	print(d)
+	print(c)
+
+	// three
+	# c
+	__all__ = ["a","d"]
+	a = 2
+	d = 3
+	c = 2
+	# c1
+	from c import *
+	print(a)
+	print(d)
+	print(c)           // 此时就会出错，因为c中定义了__all__变量使之导入时候只会导入a d
+
+	// four
+	from c import a,b,\
+	c
+	// five ***
+	from c import (a,b
+	c)
