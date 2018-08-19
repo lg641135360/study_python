@@ -292,3 +292,21 @@
 	// 配置git-bash为默认终端
     "terminal.integrated.shell.windows": "C:\\dev\\env\\Git\\bin\\bash.exe"
 
+    # snippet 片段
+
+    # if code:
+    #     pass
+    # else:
+    #     pass
+
+    a = True
+
+    if a:
+        print("hello")
+    else:
+        print("bye bye")
+    
+    // 进入snippet 代码片段内可以直接按tap编写if条件，if内
+
+    # pass 空语句/占位符
+
