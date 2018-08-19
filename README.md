@@ -328,4 +328,4 @@
 	print(b)                     // 使用切片实现步进打印
 
     ### python项目组织结构
-    ![image](https://github.com/lg641135360/study_python/blob/master/jpgs/Snipaste_2018-08-19_19-51-24.png)
+![image](https://github.com/lg641135360/study_python/blob/master/jpgs/Snipaste_2018-08-19_19-51-24.png)
