@@ -310,3 +310,19 @@
 
     # pass 空语句/占位符
 
+    if True:
+		pass // 空语句/占位符号
+	
+	elif的使用代替switch（python没有）
+
+	for的使用 
+	for x in range(0,10):        // 0 开始下标，10是偏移量，从0开始总共10个数
+		print(x)
+	
+	a = [1,2,3,4,5,6,7,8]
+	
+	# for i in range(0,len(a),2):
+	#	print(a[i], end="|")
+	
+	b = a[0:len(a):2]
+	print(b)                     // 使用切片实现步进打印
