@@ -363,3 +363,24 @@
 	// five ***
 	from c import (a,b
 	c)
+
+    # __init__模块批量导入功能
+	直接在__init__.py文件内引入所需要的包，然后在需要的模块中引入__init__模块即可
+	## 包和模块是不会被重复导入的
+	## 避免循环导入
+	即两个模块互相导入
+	### 形成了一个闭链
+![image](https://github.com/lg641135360/study_python/blob/master/jpgs/Snipaste_2018-08-21_09-16-55.png)
+
+####  python导入特性
+- 导入一个模块，就会执行该模块内所有代码
+- 入口文件
+
+---
+### 函数
+* 功能性 
+* 隐藏细节
+* 避免编写重复的代码
+- round() 
+	- 可以实现数字的四舍五入的取值
+	- Round a number to a given precision in decimal digits
