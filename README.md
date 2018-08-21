@@ -384,3 +384,14 @@
 - round() 
 	- 可以实现数字的四舍五入的取值
 	- Round a number to a given precision in decimal digits
+- 这里返回一个元组
+
+    def damage(skill1,skill2):
+    damage1 = skill1 * 3
+    damage2 = skill2 * 2 + 10
+    return damage1,damage2
+
+	skill1_damage,skill2_damage = damage(2,3)
+	# 序列解包
+	print(skill1_damage,skill2_damage)
+	# print(type(damages))
